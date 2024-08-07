@@ -81,7 +81,7 @@ def obtener_estaciones():
     return jsonify(lista_estaciones)  
 
 # Endpoint para obtener todas las estaciones
-@app.route('/estaciones-get', methods=['GET'])
+@app.route('/estaciones-get2', methods=['GET'])
 def get_estaciones2():
     db = get_db()
     cursor = db.cursor()
