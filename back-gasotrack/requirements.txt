@@ -1,0 +1,7 @@
+requests
+bs4
+geopy
+pysqlite3
+flask
+datetime
+flask-sqlalchemy
